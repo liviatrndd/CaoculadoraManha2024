@@ -15,7 +15,7 @@ struct ContentView: View {
     @State var months: Int?
     @State var result: Int?
 
-    @State var porteSelected = Porte.pequeno
+    @State var porteSelected = Porte.small
     @State var failedInput = false
     let tituloPreencherCampos = "Preencha os campos para cãocular!"
 
